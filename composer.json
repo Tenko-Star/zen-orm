@@ -1,0 +1,24 @@
+{
+    "name": "tenko/zen-orm",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Zen\\ORM\\": "src/",
+            "Test\\": "test/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tenko",
+            "email": "admin@tenko.life"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.6.x-dev"
+    }
+}
